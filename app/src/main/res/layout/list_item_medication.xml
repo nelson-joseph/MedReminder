@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <!--<CheckBox
+        android:id="@+id/list_item_medicine_select_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>-->
+
+    <TextView
+        android:id="@+id/list_item_medicine_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="4dp"
+        android:textStyle="bold"
+        tools:text="Medicine Name"/>
+
+    <TextView
+        android:id="@+id/list_item_medicine_dosage_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_medicine_name_text_view"
+
+        android:padding="4dp"
+        tools:text="Dosage"/>
+
+    <TextView
+        android:id="@+id/list_item_uuid_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_medicine_dosage_text_view"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="uuid"/>
+
+</RelativeLayout>
